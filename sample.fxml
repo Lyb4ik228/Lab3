@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="btnMain" layoutX="220.0" layoutY="161.0" mnemonicParsing="false" onAction="#onBtnAction" prefHeight="78.0" prefWidth="158.0" text="Kliknij mnie!" textFill="#0087ff">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtMain" alignment="CENTER" layoutX="131.0" layoutY="43.0" onAction="#onBtnAction" prefHeight="58.0" prefWidth="339.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
